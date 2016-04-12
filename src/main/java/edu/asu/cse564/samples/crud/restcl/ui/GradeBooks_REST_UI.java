@@ -137,7 +137,8 @@ public class GradeBooks_REST_UI extends JFrame {
         jTextField3.setText(Integer.toString(clientResponse.getStatus()));
         if(clientResponse.getStatus() != 204)
             jTextField6.setText(clientResponse.getType().toString());
-        jTextField5.setText(clientResponse.getLocation().toString());
+        if(clientResponse.getLocation() != null)
+            jTextField5.setText(clientResponse.getLocation().toString());
         jTextArea10.setText(entity);
     }
     
