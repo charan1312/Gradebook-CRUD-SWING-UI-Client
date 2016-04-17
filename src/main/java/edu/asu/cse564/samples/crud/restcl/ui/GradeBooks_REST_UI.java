@@ -131,6 +131,7 @@ public class GradeBooks_REST_UI extends JFrame {
         System.out.println("NO CONTENT RET CODE:" + clientResponse.getStatus());
         String entity="";
         jTextField6.setText("");
+        jTextArea10.setText("");     //
 
         if(clientResponse.getStatus() != 204)
             entity = clientResponse.getEntity(String.class);

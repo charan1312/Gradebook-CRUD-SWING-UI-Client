@@ -28,6 +28,7 @@ import org.slf4j.LoggerFactory;
  * </pre>
  *
  * @author fcalliss
+ * @author Charan1312
  */
 public class GradeBooks_CRUD_cl {
     
@@ -35,7 +36,7 @@ public class GradeBooks_CRUD_cl {
     
     private WebResource webResource;
     private Client client;
-    private static final String BASE_URI = "http://localhost:8080/gradebookservice/rest";
+    private static final String BASE_URI = "http://localhost:8080/CRUD-GradeBook-caware1-Eclipse/rest";
 
     public GradeBooks_CRUD_cl() {        
         ClientConfig config = new DefaultClientConfig();

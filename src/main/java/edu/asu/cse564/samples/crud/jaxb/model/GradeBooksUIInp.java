@@ -67,13 +67,6 @@ public class GradeBooksUIInp {
         this.grade = grade;
     }
 
-    @Override
-    public String toString() {
-        return "GradeBooks [comboText=" + comboText + ", gradeBookId="
-                + gradeBookId + ", gradeItemId=" + gradeItemId + ", studentId="
-                + studentId + ", name=" + name + ", grade=" + grade + "]";
-    }
-
     public String getFeedback() {
         return feedback;
     }
@@ -82,9 +75,4 @@ public class GradeBooksUIInp {
         this.feedback = feedback;
     }
     
-    //public String toJSON() {
-        
-        //ObjectMapper mapper = new ObjectMapper();
-        //mapper.writeValueAsString(obj);
-    //}
 }

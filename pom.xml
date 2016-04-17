@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.asu.cse564.samples.crud</groupId>
-	<artifactId>CSE564_CRUD_RESTcl</artifactId>
+	<artifactId>CSE564_CRUD_CAWARE1_ECLIPSE_RESTcl</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<dependencies>
